@@ -1,15 +1,10 @@
 import React, { Suspense } from "react";
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-  Redirect,
-  useRouteMatch,
-} from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 
 const Welcome = React.lazy(() => import("./view/welcome/welcome"));
 const Menu = React.lazy(() => import("./view/menu/menu"));
+const Demo = React.lazy(() => import("./view/demo/demo"));
 
 const App = () => (
   <BrowserRouter>
@@ -22,6 +17,9 @@ const App = () => (
         </Route>
         <Route path="/welcome" exact>
           <Welcome />
+        </Route>
+        <Route path="/demo" exact>
+          <Demo />
         </Route>
         <Route path="/menu">
           <Menu />

@@ -4,7 +4,7 @@ import Welcome from "../welcome/welcome";
 
 export default function RouterTry() {
   const { path, url } = useRouteMatch();
-  // console.log(url); // menu
+  console.log(url); // menu
   return (
     <div>
       <ul>
