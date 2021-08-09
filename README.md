@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+# Reference
+* [Router Lazy Loading](https://hackmd.io/@yellow/BJqxRvqAd)
+* [React Router 與 hooks](https://ithelp.ithome.com.tw/articles/10249724)

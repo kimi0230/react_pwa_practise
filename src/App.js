@@ -1,9 +1,10 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import logo from './logo.svg';
+import { BrowserRouter, Route, Switch, Redirect, useRouteMatch } from 'react-router-dom';
 import './App.css';
 
 const Welcome = React.lazy(() => import('./view/welcome/welcome'));
+const Menu = React.lazy(() => import('./view/menu/menu'));
+
 const App = () => (
   <BrowserRouter>
     {/* fix: [ERROR] A React component suspended while rendering, but no fallback UI was specified.
@@ -15,6 +16,9 @@ const App = () => (
       </Route>
       <Route path="/welcome" exact>
         <Welcome />
+      </Route>
+      <Route path="/menu">
+        <Menu />
       </Route>
     </Switch>
     </Suspense>
