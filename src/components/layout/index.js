@@ -4,6 +4,7 @@ import Hero from './hero';
 const Layout = ({children}) => {
   return (
     <div>
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
       <Header/>
       <Hero/>
       <div className="max-w-screen-xl m-auto mt-12">
