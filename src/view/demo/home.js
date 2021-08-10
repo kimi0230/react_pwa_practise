@@ -1,7 +1,7 @@
 import Layout from '../../components/layout';
 import Movies from '../../components/movies';
 
-const Demo = () => {
+const Home = () => {
   return (
     <Layout>
       <Movies/>
@@ -9,4 +9,4 @@ const Demo = () => {
   );
 };
 
-export default Demo;
+export default Home;

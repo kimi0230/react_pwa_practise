@@ -5,7 +5,8 @@ import "./styles/style.css";
 
 const Welcome = React.lazy(() => import("./view/welcome/welcome"));
 const Menu = React.lazy(() => import("./view/menu/menu"));
-const Demo = React.lazy(() => import("./view/demo/demo"));
+const Demo = React.lazy(() => import("./view/demo/home"));
+const TopPicks = React.lazy(() => import("./view/demo/top_picks"));
 
 const App = () => (
   <BrowserRouter>
@@ -21,6 +22,9 @@ const App = () => (
         </Route>
         <Route path="/demo" exact>
           <Demo />
+        </Route>
+        <Route path="/demo/top_picks" exact>
+          <TopPicks />
         </Route>
         <Route path="/menu">
           <Menu />
