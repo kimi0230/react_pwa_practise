@@ -75,3 +75,4 @@ Apply for API_KEY from https://developers.themoviedb.org/3
 # Reference
 * [Router Lazy Loading](https://hackmd.io/@yellow/BJqxRvqAd)
 * [React Router 與 hooks](https://ithelp.ithome.com.tw/articles/10249724)
+* [craco-workbox](https://github.com/kevinsperrine/craco-workbox)

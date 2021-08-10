@@ -11475,7 +11475,7 @@ workbox-cacheable-response@^5.1.4:
   dependencies:
     workbox-core "^5.1.4"
 
-workbox-core@6.2.2:
+workbox-core@6.2.2, workbox-core@^6.2.2:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.2.2.tgz#3ea0d0348f318e047db3911816d6a14318f268f0"
   integrity sha512-cRosvK04AJ3vg4VwIaihLyKLbdwp96D0urukIXm5nsc6XaQqx2OaHFDRjaP1y9g4Js2uNHmBhuHrNSlzQZLoWw==
@@ -11534,7 +11534,7 @@ workbox-navigation-preload@^5.1.4:
   dependencies:
     workbox-core "^5.1.4"
 
-workbox-precaching@6.2.2:
+workbox-precaching@6.2.2, workbox-precaching@^6.2.2:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-6.2.2.tgz#997eaa55556f4ee60ab2c210c3f67214282bc8d4"
   integrity sha512-ubhhHBA5OEUTOX1hrK20dsewCOEz7xS9bPfVkGwfbWbsl4uQ8XstQVYTzP6HvT1I6r82BdKC4NdNBnNMzsZ9xQ==
