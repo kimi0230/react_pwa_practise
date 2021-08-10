@@ -15,7 +15,7 @@ const App = () => (
     <Suspense fallback={<p>Loading...</p>}>
       <Switch>
         <Route path="/" exact>
-          <Redirect to="/welcome" />
+          <Redirect to="/demo" />
         </Route>
         <Route path="/welcome" exact>
           <Welcome />
