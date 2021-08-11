@@ -13,8 +13,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1",
+    "workbox-cacheable-response": "^6.2.3",
     "workbox-core": "^6.2.2",
+    "workbox-expiration": "^6.2.3",
     "workbox-precaching": "^6.2.2",
+    "workbox-routing": "^6.2.3",
+    "workbox-strategies": "^6.2.3",
     "workbox-webpack-plugin": "^6.2.2"
   },
   "scripts": {
