@@ -1,7 +1,22 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [craco](https://github.com/gsoft-inc/craco). Implement PWA [Workbox](https://developers.google.com/web/tools/workbox).
 
+---
+## Installation
+### Copy .env.example to .env and .env.development
+Apply for API_KEY from https://developers.themoviedb.org/3
+
+### Start and Install package
+``` shell
+yarn install
+yarn start
+
+# build static file
+yarn build
+```
+
+---
 ## Available Scripts
 
 In the project directory, you can run:
@@ -70,9 +85,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ---
-### copy .env.example to .env and .env.development
-Apply for API_KEY from https://developers.themoviedb.org/3
 # Reference
+* [react-pwa-workbox-example](https://imranhsayed.medium.com/setup-pwa-workbox-webpack-plugin-for-react-application-workbox-window-precaching-caching-at-40f9289650e5)
 * [Router Lazy Loading](https://hackmd.io/@yellow/BJqxRvqAd)
 * [React Router 與 hooks](https://ithelp.ithome.com.tw/articles/10249724)
-* [craco-workbox](https://github.com/kevinsperrine/craco-workbox)
+* [craco](https://github.com/gsoft-inc/craco)
