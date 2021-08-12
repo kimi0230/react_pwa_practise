@@ -87,7 +87,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---
 # Reference
-* [react-pwa-workbox-example](https://imranhsayed.medium.com/setup-pwa-workbox-webpack-plugin-for-react-application-workbox-window-precaching-caching-at-40f9289650e5)
+* [react-pwa-workbox-example][react-pwa-workbox-example]
 * [Router Lazy Loading](https://hackmd.io/@yellow/BJqxRvqAd)
 * [React Router 與 hooks](https://ithelp.ithome.com.tw/articles/10249724)
 * [craco](https://github.com/gsoft-inc/craco)
