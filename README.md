@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [craco](https://github.com/gsoft-inc/craco). Implement PWA [Workbox](https://developers.google.com/web/tools/workbox).
+Base on [Setup PWA Workbox Webpack Plugin for React Application | Workbox Window | Precaching | Caching at runtime.][react-pwa-workbox-example]
 
 ---
 ## Installation
@@ -91,3 +92,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * [React Router 與 hooks](https://ithelp.ithome.com.tw/articles/10249724)
 * [craco](https://github.com/gsoft-inc/craco)
 * [workbox-routing](https://developers.google.com/web/tools/workbox/modules/workbox-routing)
+
+[react-pwa-workbox-example]:https://imranhsayed.medium.com/setup-pwa-workbox-webpack-plugin-for-react-application-workbox-window-precaching-caching-at-40f9289650e5
+    "react-pwa-workbox-example"
