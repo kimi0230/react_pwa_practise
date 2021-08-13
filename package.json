@@ -23,9 +23,10 @@
   },
   "scripts": {
     "start": "craco start --mode=development",
-    "build": "craco build",
+    "build": "craco build --mode=production",
     "test": "craco test",
     "eject": "craco eject",
+    "serve": "yarn build && serve -s build",
     "svg": "svgr -d src/components/icons src/components/icons/svgs"
   },
   "eslintConfig": {
