@@ -8,7 +8,6 @@ const Movies = () => {
 
   useEffect(() => {
     setLoading(true);
-    console.log(process.env.REACT_APP_API_KEY);
     axios
       .get(`https://api.themoviedb.org/3/discover/tv`, {
         params: {
