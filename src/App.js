@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import "./styles/style.css";
+import Demo2 from "./view/demo/home";
 
 const Welcome = React.lazy(() => import("./view/welcome/welcome"));
 const Menu = React.lazy(() => import("./view/menu/menu"));
@@ -10,13 +11,13 @@ const TopPicks = React.lazy(() => import("./view/demo/top_picks"));
 
 const App = () => (
   <BrowserRouter>
+    <Route path="/" exact>
+      <Demo2 />
+    </Route>
     {/* fix: [ERROR] A React component suspended while rendering, but no fallback UI was specified.
     https://stackoverflow.com/questions/54432861/a-react-component-suspended-while-rendering-but-no-fallback-ui-was-specified */}
     <Suspense fallback={<p>Loading...</p>}>
       <Switch>
-        <Route path="/" exact>
-          <Redirect to="/demo" />
-        </Route>
         <Route path="/welcome" exact>
           <Welcome />
         </Route>
