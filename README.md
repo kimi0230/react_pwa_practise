@@ -1,23 +1,39 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [craco](https://github.com/gsoft-inc/craco). Implement PWA [Workbox](https://developers.google.com/web/tools/workbox).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [making a progressive web app]. Implement PWA [Workbox](https://developers.google.com/web/tools/workbox).
 Base on [Setup PWA Workbox Webpack Plugin for React Application | Workbox Window | Precaching | Caching at runtime.][react-pwa-workbox-example]
 
 ---
+
+## Create Project
+
+[Making a Progressive Web App][making a progressive web app]
+
+```
+npx create-react-app react_pwa_practise --template cra-template-pwa
+```
+
 ## Installation
+
 ### Copy .env.example to .env and .env.development
+
 Apply for API_KEY from https://developers.themoviedb.org/3
 
 ### Start and Install package
-``` shell
+
+```shell
 yarn install
 yarn start
 
 # build static file
 yarn build
+
+# build static file and run by serve
+yarn serve
 ```
 
 ---
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -86,12 +102,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ---
-# Reference
-* [react-pwa-workbox-example][react-pwa-workbox-example]
-* [Router Lazy Loading](https://hackmd.io/@yellow/BJqxRvqAd)
-* [React Router 與 hooks](https://ithelp.ithome.com.tw/articles/10249724)
-* [craco](https://github.com/gsoft-inc/craco)
-* [workbox-routing](https://developers.google.com/web/tools/workbox/modules/workbox-routing)
 
-[react-pwa-workbox-example]:https://imranhsayed.medium.com/setup-pwa-workbox-webpack-plugin-for-react-application-workbox-window-precaching-caching-at-40f9289650e5
-    "react-pwa-workbox-example"
+# Reference
+
+- [react-pwa-workbox-example][react-pwa-workbox-example]
+- [Router Lazy Loading](https://hackmd.io/@yellow/BJqxRvqAd)
+- [React Router 與 hooks](https://ithelp.ithome.com.tw/articles/10249724)
+- [craco](https://github.com/gsoft-inc/craco)
+- [workbox-routing](https://developers.google.com/web/tools/workbox/modules/workbox-routing)
+
+[react-pwa-workbox-example]: https://imranhsayed.medium.com/setup-pwa-workbox-webpack-plugin-for-react-application-workbox-window-precaching-caching-at-40f9289650e5 "react-pwa-workbox-example"
+[making a progressive web app]: https://create-react-app.dev/docs/making-a-progressive-web-app "Making a Progressive Web App"
