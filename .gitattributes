@@ -1,3 +1,1 @@
-*.js linguist-language=React
-*.css linguist-vendored
-public/* linguist-vendored
+* linguist-language=React
