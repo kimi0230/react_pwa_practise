@@ -9,7 +9,7 @@ const TopPicks = React.lazy(() => import("./view/demo/top_picks"));
 const Welcome = React.lazy(() => import("./view/welcome/welcome"));
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     {/* fix: [ERROR] A React component suspended while rendering, but no fallback UI was specified.
     https://stackoverflow.com/questions/54432861/a-react-component-suspended-while-rendering-but-no-fallback-ui-was-specified */}
     <Suspense fallback={<p>Loading...</p>}>
